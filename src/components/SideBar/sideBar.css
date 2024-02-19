@@ -1,0 +1,20 @@
+.sidebar-container{
+min-height: 90vh;
+width: 250px;
+max-width: 300px;
+background-color: #ffffff;
+text-align: center;
+
+}
+.sidebar-menu{
+    padding: 10px 20px 20px 30px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.sidemenu-icon{
+    font-size: 20px;
+    font-weight: 400;
+}

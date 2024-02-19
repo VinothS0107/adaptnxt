@@ -1,0 +1,15 @@
+.main-container{
+    background-color: lightgray;
+    padding: 10px 0px 0px 10px;
+    flex-grow:2;
+
+}
+.orders-button{
+border: none;
+padding: 5px;
+font-family: 20px;
+color: rgb(55, 124, 226);
+}
+.close-icon{
+    color:gray;
+}

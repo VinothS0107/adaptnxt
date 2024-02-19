@@ -1,0 +1,19 @@
+.navbar-container{
+    max-width: 1536px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 50px;
+    box-shadow: 0px 3px 2px lightgray;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+.navbar-left-icons{
+    display: flex;
+    column-gap: 20px;
+}
+.icons{
+    width:25px;
+    height: 25px;
+}

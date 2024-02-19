@@ -1,0 +1,80 @@
+.table-container{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+.table-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  
+
+}
+.table-tab-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.table-button{
+font-size: 13px;
+padding: 5px;
+border: 1px solid lightgray;
+cursor: pointer;
+}
+.refreshButton{
+    background-color:rgb(49, 186, 232);
+    color:#ffffff;
+    border: none;
+    font-size: 13px;
+    padding: 5px
+}
+
+.tableCreation{
+    margin-top: 30px;
+    width:100%;
+    text-align: center;
+}
+tr td {
+    max-width:40px;
+    height: 50px;
+}
+td:nth-child(9) p{
+    color:green;
+    border: 1px solid green;
+    height:30px ;
+    width:100%;
+   
+   
+}
+td:nth-child(10) p{
+    border: 1px solid lightgrey;
+    height:30px ;
+    width:100%;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 30px;
+}
+.page-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    
+}
+.pagearrow{
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    width:30px;
+    text-align: center;
+
+}
+.totalPage{
+    font-size: 15px;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
